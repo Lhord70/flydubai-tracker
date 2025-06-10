@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FlyDubai Flight Record - Track Flight</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #eef3f7;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #00467f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .flight-info, .status {
+            margin-bottom: 20px;
+        }
+        .flight-info h2, .status h3 {
+            color: #00467f;
+        }
+        .map, .plane-img {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .map img, .plane-img img {
+            width: 100%;
+            max-width: 700px;
+            border-radius: 10px;
+        }
+        .status {
+            background: #e6f4ff;
+            padding: 15px;
+            border-left: 5px solid #007acc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FlyDubai Flight Record</h1>
+        <p>Track Flight | 14 June 2025</p>
+    </header>
+    <div class="container">
+        <div class="flight-info">
+            <h2>Flight Details</h2>
+            <p><strong>Airline:</strong> Emirates</p>
+            <p><strong>Flight:</strong> EKXXX</p>
+            <p><strong>From:</strong> Ben Gurion Airport, Tel Aviv (TLV)</p>
+            <p><strong>To:</strong> Dubai International Airport (DXB)</p>
+            <p><strong>Date:</strong> 14 June 2025</p>
+            <p><strong>Departure:</strong> 10:45 AM</p>
+            <p><strong>Arrival:</strong> 2:45 PM</p>
+        </div>
+        <div class="status">
+            <h3>Live Flight Status</h3>
+            <p>Status: Scheduled – On Time</p>
+            <p>Check back closer to departure for real-time tracking.</p>
+        </div>
+        <div class="map">
+            <h3>Flight Route Map</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flight_route_TLV-DXB.svg/1200px-Flight_route_TLV-DXB.svg.png" alt="Flight Route Map">
+        </div>
+        <div class="plane-img">
+            <h3>Aircraft Preview</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Emirates_Boeing_777-300ER_A6-EBM.jpg" alt="Emirates Aircraft">
+        </div>
+    </div>
+</body>
+</html>
